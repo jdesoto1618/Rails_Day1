@@ -1,0 +1,10 @@
+<h1>Here is what <%= @name %> guessed: </h1>
+<%= params[:guess] %>
+
+<h2>Your guess was: </h2>
+<%= @result %>
+<!-- This worked here because this actual file is rendered in the controller, thus making @result available here -->
+
+<h3>You guessed <%= cookies[:counter] %> times!</h3>
+
+<!-- <input value="Reset Game" type="button" onclick="http://localhost:3000/new_game"></input> -->
